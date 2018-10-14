@@ -15,11 +15,8 @@ import time
 def initialisation():
     # This will select the correct option in the dropdown
     dropDown = driver.find_element_by_id("fancytypeselector")
-    dropDown.click()              # Default: Program/klass
-    dropDown.send_keys(Keys.DOWN) # Kurstillfälle
-    dropDown.send_keys(Keys.DOWN) # Personal
-    dropDown.send_keys(Keys.DOWN) # Lokal
-    dropDown.send_keys(Keys.RETURN)
+    dropDown.click()        # Default: Program/klass
+    dropDown.send_keys("L") # The first instance is Lokal, so we can write L and auto-select Lokal.
 
 # After we have searched for some room we need to reset the state.
 def reset_locale_search():
@@ -86,7 +83,6 @@ driver = webdriver.Chrome()
 #driver.get("https://cloud.timeedit.net/kth/web/public01/ri1f2XyQ0YvZ0YQ.html")
 driver.get("https://cloud.timeedit.net/kth/web/public01/ri15230QX09Z50Q5Yg6g0535y60Y6.html")
 initialisation()
-
 '''
 This is the function that will be called by outside callers (main)
 
