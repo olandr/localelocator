@@ -1,3 +1,8 @@
+'''
+    2018-10-14 Written by Simon Olander Ålund
+    MIT License
+'''
+
 import pandas as pd
 
 # This is basically the return DataFrame that will be accessed by the visualisation-service.

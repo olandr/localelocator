@@ -1,3 +1,8 @@
+'''
+    2018-10-14 Written by Simon Olander Ålund
+    MIT License
+'''
+
 from selenium import webdriver
 from selenium.webdriver.support.ui  import Select
 from selenium.webdriver.common.keys import Keys

@@ -1,3 +1,9 @@
+'''
+    2018-10-14 Written by Simon Olander Ålund
+    MIT License
+'''
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
