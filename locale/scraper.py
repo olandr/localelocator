@@ -79,9 +79,7 @@ def process_locale(weekDiv):
     return keeper
 
 driver = webdriver.Chrome()
-#14/10 I need another link cuz it does not work correctly on sundays.
-#driver.get("https://cloud.timeedit.net/kth/web/public01/ri1f2XyQ0YvZ0YQ.html")
-driver.get("https://cloud.timeedit.net/kth/web/public01/ri15230QX09Z50Q5Yg6g0535y60Y6.html")
+driver.get("https://cloud.timeedit.net/kth/web/public01/ri1f2XyQ0YvZ0YQ.html")
 initialisation()
 '''
 This is the function that will be called by outside callers (main)
